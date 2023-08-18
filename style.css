@@ -1,0 +1,74 @@
+h1 {
+  color: #67f4fe
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#temp {
+  color: #3b51f7;
+}
+
+#humidity {
+  color: green;
+}
+
+#remark {
+  font-size: 20px;
+  color: red;
+
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+label,
+input,
+button {
+  margin-bottom: 1rem;
+  margin-left: 10px;
+}
+
+input {
+  font-size: 18px;
+  padding: 8px;
+  border-width: 2px;
+}
+
+button {
+  position: relative;
+  font-size: 23px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #6b00b3;
+  outline: none;
+  cursor: pointer;
+  border: 3px solid #db0092;
+}
+
+main1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#result {
+  font-weight: bold;
+  text-align: center;
+}
