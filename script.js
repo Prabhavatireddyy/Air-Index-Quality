@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
   const fetchButton = document.getElementById('fetchButton');
+
+  fetchButton.addEventListener('mouseover', () => {
+   fetchButton.classList.add('pop');
+  });
+
+  fetchButton.addEventListener('mouseout', () => {
+   fetchButton.classList.remove('pop');
+  });
+
   const locationInput = document.getElementById('location');
   const resultDiv = document.getElementById('result');
 
@@ -19,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'X-RapidAPI-Host': 'the-weather-api.p.rapidapi.com'
       }
     };
-
+    resultDiv.innerHTML = '<div class="loading"></div>';
     async function fetchData() {
       try {
         const response = await fetch(url, options);
