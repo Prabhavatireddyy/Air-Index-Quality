@@ -62,6 +62,9 @@ main {
   text-align: center;
   margin-top: 2rem;
 }
+p{
+  color: rgb(189, 96, 62)
+}
 
 #temp {
   color: #3b51f7;
