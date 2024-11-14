@@ -1,76 +1,5 @@
-html,
-body {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(to bottom, #daa3ff, #c36dfd, #8f14e1, #24023b);
-  overflow: hidden;
-}
-
-.made-by {
-  text-align: center;
-  color: rgb(251, 85, 20);
-  font-size: 25px;
-  font-weight: bold;
-  position: absolute;
-  top: 10px;
-  width: 100%;
-}
-
-.container {
-  text-align: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 h1 {
-  transform: translate(1rem, 5rem);
-  font-size: 60px;
-  color:rgb(0, 0, 0);
-}
-
-h2 {
-  transform: translate(1rem, 3rem);
-  font-size: 55px;
-  width: 20cm;
-  color:rgb(208, 236, 86);
-  text-align: center;
-  -webkit-text-stroke: 0.3px black;
-}
-
-p {
-  font-size: 30px;
-  background: lavenderblush;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 0 4px #2c2b31, 0 0 8px #3a2999, 0 0 12px #220ba2;
-  border-radius: 25px;
-}
-
-.btn {
-  transform: center;
-  position: relative;
-  font-size: 23px;
-  padding: 10px 20px;
-  border-radius: 50px;
-  color: #8f14e1;
-  outline: none;
-  cursor: pointer;
-  border: 3px solid #db0092;
-}
-
-.btn:hover {
-  background-color: #ff6bc9;
-  color: #ffffff;
-  box-shadow: 0 0 7px #f0b2e3, 0 0 9px #f8a0f1, 0 0 13px #fe71fa;
-  transition: 0.5s;
-}
-
-
-
-
-/* h1 {
   color: #67f4fe
 }
 
@@ -190,4 +119,4 @@ main1 {
   font-weight: bold;
   text-align: center;
 }
- */
+
